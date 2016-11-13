@@ -18,5 +18,5 @@ app.get('/', function (req, res) {
 
 //wait for a connection
 app.listen(5000, function () {
-  console.log('POST test server is running on port 5000');
+  console.log('The web server is running. Please open http://localhost:5000/ in your browser.');
 });
