@@ -10,10 +10,10 @@ app.get('/', function (req, res) {
 
   //send a response to the client
   res.send("<h1>This is the first response</h1>");
-  //send a response to the client
+  //send a second response to the client
   res.send("<h2>This is the second response</h2>");
-  //send a response to the client
-  res.send("<h2>This is the third response</h2>");
+  //send a third response to the client
+  res.send("<h3>This is the third response</h3>");
 });
 
 //wait for a connection
